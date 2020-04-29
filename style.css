@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(darkblue,yellow);
+    font-family: 'Lato', sans-serif;
+}
+
+.container{width: 950  ;height: 700;
+    margin:0 auto; margin-top:90 ;
+    background-color: #fff;
+    border: 2px solid rgb(0, 0, 0);margin-bottom: 90;}
+.header{width: 99.5%; height: 100;background-color: #fff; margin-left: 1;margin-top: 1;}
+.logo{float:left;}
+.logo img{ width:300 ;height: 100;}
+.menu li {float: left;list-style-type: none;margin-top: 40;margin-left: 10;}
+.menu li a { color:darkblue;padding: 18;text-decoration: none;font-size: 17;}
+.alan{width: 925; height: 550; background: linear-gradient(#fff,#0070A5);margin:0 auto;}
+.yazi{margin-left: 15;margin-top: 30; font-size: 20; margin-right: 15;}
+.sol{float:left; width: 300; height: 550;}
+.foto{float: left;margin-top: 20;margin-left: 25;}
+.foto img{width: 250px;height: 250px;border-radius: 400px;}
+.sosyal{float: left;width: 300px;height:100px; margin-left: 20;font-size: 20;color: #FFF;margin-top: 20;}
+.sosyal img {width: 25;height: 25;border-radius: 50px;}
+.sag{float: left ;width: 535; height: 550; font-size: 20;color: black;}
+.baslik{float: left;margin-left: 35;margin-top: 10;width: 470;font-size: 22;}
