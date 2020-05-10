@@ -3,32 +3,145 @@
     <head>
         <title>Harun Oğuz Tuç</title>
         <meta charset="utf8">
-        <link rel="stylesheet" href ="style.css">
+        <link rel="stylesheet" href ="css/bootstrap.min.css">
+        <link rel="stylesheet" href ="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">  
     </head>
     <body>
-        <div class="container">
-            <div class="header">
-                <div class="logo"><a href="index.html"></li><img src="img/logo.png" ></a></div>
-                <div class="menu">
+        <div class="container o-container" >
+            <div class="row "style="background-color:white">
+                <div class="col-md-3 logo"><a href="index.html"></li><img src="img/logo.png"class="img-fluid " ></a></div>
+                <div class="col-md-9 menu">
                     <ul>
                         <li><a href="index.html">Hakkında</a></li>
                         <li><a href="ozgecmis.html">Özgeçmiş</a></li>
-                        <li><a href="/">Şehrim</a></li>
-                        <li><a href="/">Mirasımız</a></li>
-                        <li><a href="/">Login</a></li>
-                        <li><a href="/">İletişim</a></li>
+                        <li><a href="sehrim.html">Şehrim</a></li>
+                        <li><a href="takımımız.html">Takımımız</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
                     </ul>
                 </div>
 
             </div>
-        <div class="alan">
-            <div class="yazi">
-                <div class="o-baslik">&emsp;&emsp;<b>Özgeçmiş<hr></b></div>
-                Hemen kısaca kendimden bahsedeyim. Trakya’nın kuzeyinde pek tanınmayan bir şehir olan Kırklareli’nde 2000 yılında doğdum. İlköğretimimi Cumhuriyet İlkokulunda liseyi ise Kırklareli Anadolu Lisesinde tamamladım. Ardından Sakarya Üniversitesi Bilgisayar Mühendisliğini kazandım ve eğitim hayatıma üniversite 1. Sınıf öğrencisi olarak devam ediyorum. 3 yıldır düzenli olarak Fitness ile uğraşıyorum ayrıca futbolu oynamayı ve izlemeyi çok seviyorum. Sıkı bir Fenerbahçe taraftarıyım.
+        <div class="col-md-12 o-alan">
+            <div class="col-md-12 o-baslik">&emsp;&emsp;<b>Özgeçmiş<hr></b></div>
+                <div class="row">
+                <table class="col-md-5  cv-table" class="text-center" border="1" >
+                    
+                    <tr>
+                        <td>Adı Soyadı :</td>
+                        <td>Harun Oğuz Tuç</td>
+                    </tr>
+                    <tr>
+                        <td>Doğum yeri :</td>
+                        <td>Kırklareli</td>
+                    </tr>
+                    <tr>
+                        <td>Doğum tarihi :</td>
+                        <td>19/05/2000</td>
+                    </tr>
+                    <tr>
+                        <td>Medeni Durumu :</td>
+                        <td>Bekar</td>
+                    </tr>
+                    <tr>
+                        <td>Askerlik Durumu :</td>
+                        <td>Yapmadı</td>
+                    </tr>
+                    <tr>
+                        <td>Yabancı Dil ve Düzeyi :</td>
+                        <td>İngilizce (İyi derecede)</td>
+                    </tr>
+                <caption> <b> Kisisel Bilgiler</b></caption>
+            </table>
+                
+
+
+                <table class="col-md-5 cv-table" border="1">
+                    <thead>
+                       <tr>
+                        <th>OKUL</th>
+                        <th>GİRİŞ YILI</th>
+                        <th>MEZUNİYET YILI</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cumhuriyet İlköğretim Okulu</td>
+                            <td>2006</td>
+                            <td>2014</td>
+                        </tr>
+                        <tr>
+                            <td>Kırklareli Anadolu Lisesi</td>
+                            <td>2014</td>
+                            <td>2018</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Sakarya Üniversitesi (Bilgisayar Mühendisliği)</td>
+                            <td>2019</td>
+                            <td> ....</td>
+                        </tr>
+                    </tfoot>
+                    <caption><b>Eğitim Bilgileri</b> </caption>
+                </table>
             </div>
+            <table class="col-md-12 beceri-table" border="1">
+                <thead>
+                <tr>
+                    <th>ÖZELLİK</th>
+                    <th>SEVİYE</th>
+                </tr>
+                </thead>
+
+                <tr>
+                    <th>Word - Excel</th>
+                    <th>İyi düzeyde</th>
+                </tr>
+                <tr>
+                    <th>C++</th>
+                    <th>İyi düzeyde</th>
+                </tr>
+                <tr>
+                    <th>C#</th>
+                    <th>İyi düzeyde</th>
+                </tr>
+                <tr>
+                    <th>Python</th>
+                    <th>Temel düzeyde</th>
+                </tr>
+                <tr>
+                    <th>HTML ve CSS</th>
+                    <th>İyi düzeyde</th>
+                </tr>
+                <tr>
+                    <th>Javascript</th>
+                    <th>Temel düzeyde</th>
+                </tr>
+            <caption><b>Bilgisayar Becerileri</b></caption>
+        </table>
+        <br>
+        <table class="col-md-12 hobi-table" border="1">
+            <tr>
+              
+                <th>Oyun Oynamak</th>
+                        
+                <th>Futbol</th>
+                         
+                <th>Fitness</th>
+                          
+                <th>Müzik</th>
+                          
+                <th>Fotoğraf çekmek</th>
+                
+            </tr>
+        <caption><b>Hobilerim</b> </caption>
+    </table>
+        
             </div>
+
         </div>
-        </div>
+        
     </body>
 </html>

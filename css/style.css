@@ -1,62 +1,72 @@
-
+*{
+    margin:0;
+    padding: 0;
+}
 body{
     background: linear-gradient(darkblue,yellow);
     font-family: 'Lato', sans-serif;
-    margin:0;padding:0;height:100%;width:100%;
 }
-html {margin:0;padding:0;height:100%;width:100%;}
 
-
-
-.container{width: 70%  ;height: 100%;
-    margin:0 auto;
-    background: linear-gradient(white,darkblue);
-    border: 1em solid rgb(0, 0, 0);}
-.header{width: 100%; height: 10%;max-height: 90px; background-color:white; }
-.logo image{ width: 100%; height: auto;max-height: 100px;min-width: 1%;}
-.menu li {float: left;list-style-type: none;margin-top: 40%;margin-left: 10%;}
+.container{width: 950  ;height: 700;
+    margin:0 auto; margin-top:90 ;
+    background-color: #fff;
+    border: 2px solid rgb(0, 0, 0);margin-bottom: 90;}
+.header{width: 99.5%; height: 100;background-color:white; margin-left: 1;margin-top: 1;}
+.logo{float:left;}
+.logo img{ width:300 ;height: 100;}
+.menu li {float: left;list-style-type: none;margin-top: 40;margin-left: 10;}
 .menu li a { color:darkblue;padding: 18;text-decoration: none;font-size: 17;}
-.alan{width: 70%; height: 99%; background: linear-gradient(#fff,#0070A5);}
-.yazi{margin-left: 2%;font-size: 18em; margin-right: 2%;margin-top: 4%;}
+.alan{width: 925; height: 587; background: linear-gradient(#fff,#0070A5);margin:0 auto;}
+
+.yazi{margin-left: 15; font-size: 20; margin-right: 15;margin-top: 30;}
 .main-sol{float:left; width: 300; height: 550;margin-top: 30;}
 .foto{float: left;margin-top: 20;margin-left: 25;}
 .foto img{width: 250px;height: 250px;border-radius: 400px;}
 .sosyal{float: left;width: 300px;height:100px; margin-left: 20;font-size: 20;color: #FFF;margin-top: 20;}
 .sosyal img {width: 25;height: 25;border-radius: 50px;}
+.main-sag{float: left ;width: 535; height: 550; font-size: 20;color: black;margin:0 auto; margin-top: 30;}
+.main-baslik{float: left;margin-left: 35;margin-top: 10;width: 470;font-size: 22;}
 
-.row{width: 100%;height: 10%;}
 
-.cv-table{width: 100%;height: 200px; border: red;font-size: 20;}
+
+.cv-table{width: 100%;height: 200px;margin-left: 50px;margin-top:50; border: red;font-size: 20;}
 .o-baslik{font-size: 22; margin-top: 20;}
 .o-container{width: 950  ;height: 1000;
     margin:0 auto; margin-top:90 ;
     background-color: #fff;
     border: 2px solid rgb(0, 0, 0);margin-bottom: 90;}
-.o-alan{width: 100%; height: 100%; background: linear-gradient(#fff,rgb(0, 174, 255));margin:0 auto;}
+.o-alan{width: 925; height: 867; background: linear-gradient(#fff,rgb(0, 174, 255));margin:0 auto;}
+.ozgecmis-sag{float: left ;width: 400; height: 300; margin-left: 20;}
+.ozgecmis-sol{float:left; width: 400; height: 300;}
 .beceri-table{width: 88.5%;height: 200;margin: auto; border: red;font-size: 20;}
 .hobi-table{width: 70%;height: 100;margin: auto; border: red;font-size: 20;font-weight: bold;}
 
 
-.form{margin-top: 40%;}
 
-.sehrim-alan{width: 100%; height: 100%; background: linear-gradient(#fff,rgb(14, 224, 14));margin:0 auto;font-size: 18em;}
-.sehrim-container{width: 100%;height: auto;
-    margin:0 auto;
+
+
+.sehrim-baslik{font-size: 20;}
+.sehrim-alan{width: 925; height: 2937; background: linear-gradient(#fff,rgb(14, 224, 14));margin:0 auto;}
+.sehrim-container{width: 950  ;height: 3050;
+    margin:0 auto; margin-top:90 ;
     background-color: #fff;
-    border: 1px solid rgb(0, 0, 0);font-size: 18em;}
-.kent-foto img{width: 20px;height: 25px}
+    border: 2px solid rgb(0, 0, 0);margin-bottom: 90;}
+.kent-foto img{width: 100%;height: 250px;}
 .slogan{font-size: 25;font-weight: bolder;color: rgb(0, 187, 56);text-align: center;}
-.sehrim-yazi{font-size: 18em;padding: inherit; margin-left: 1%;margin-right: 1%;}
+.sehrim-yazi{font-size: 18;padding: inherit; margin-left: 5;margin-right: 5;}
+.ataturkevi{text-align: center;}
 .maps{text-align: center; margin-top: 20;font-size: 22;}
 
 
-.mirasimiz-container{width: 70%  ;height: 1000px;
+.mirasimiz-container{width: 950  ;height: 2000;
+    margin:0 auto; margin-top:90 ;
     background-color: #fff;
-    border: 2px solid rgb(0, 0, 0);}
-.mirasimiz-alan{width: 70%  ;height: 100%;min-width: 10px; background: linear-gradient(#fff,rgb(14, 224, 14)); margin: auto;}
-.kirklar-logo {width: 70%; height: auto;}
+    border: 2px solid rgb(0, 0, 0);margin-bottom: 90;}
+.mirasimiz-alan{width: 925; height: 1850;background: linear-gradient(#fff,rgb(14, 224, 14)); margin: auto;}
+.kirklar-logo{text-align: center;}
+.kirklar-logo img{width: 300; height: 300;}
 
-.img-fluid{width: 100%;}
+
 
 .aw-slider
 {

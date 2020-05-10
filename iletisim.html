@@ -1,0 +1,79 @@
+<html>
+    
+    <head>
+        <title>Harun Oğuz Tuç</title>
+        <meta charset="utf8">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">  
+
+        <link rel="stylesheet" href ="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/iletisim.css"type="text/css">
+        
+        <link rel="stylesheet" href ="css/style.css">
+        <script>
+            function validateForm()
+            {
+                var x=document.forms["myForm"]["isim"].value;
+                if(x==""){
+                    alert("İsim Alanını Boş Bırakmayınız");
+                    return false;
+                }
+                var y=document.forms["myForm"]["email"].value;
+                if(y==""){
+                    alert("E-Mail Alanını Boş Bırakmayınız");
+                    return false;
+                }
+                var z=document.forms["myForm"]["telefon"].value;
+                if(z==""){
+                    alert("Telefon Alanını Boş Bırakmayınız");
+                    return false;
+                }
+                var a=document.forms["myForm"]["mesaj"].value;
+                if(a==""){
+                    alert("Mesaj Alanını Boş Bırakmayınız");
+                    return false;
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+        <div class="container" style=" background-image: url(img/mail-arkaplan1.jpg);">
+             <div class="row "style="background-color:white">
+                <div class="col-md-3 logo"><a href="index.html"></li><img src="img/logo.png"class="img-fluid " ></a></div>
+                <div class="col-md-9 menu">
+                    <ul>
+                        <li><a href="index.html">Hakkında</a></li>
+                        <li><a href="ozgecmis.html">Özgeçmiş</a></li>
+                        <li><a href="sehrim.html">Şehrim</a></li>
+                        <li><a href="takımımız.html">Takımımız</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="Form" class="col-lg-12 login-container" style=" width:100%; height: 30%; text-align: center;margin-top: 15%;"><b>İletişim</b>
+                <form name="myForm" onsubmit="return validateForm()" action="iletisim.php" method="post"><input class="info" type="text" name="isim"placeholder="Adınızı Soyadınızı giriniz"><br>
+                <input class="info" type="text" name="telefon" placeholder="Telefon Numaranızı giriniz"> <br>
+                <input class="info" type="text" name="E-Mail" placeholder="E-posta adresinizi giriniz"><br>
+                <input class="info" type="text" name="mesaj"placeholder="Mesajınızı giriniz"><br>
+                 Anketimize katılmak için => Takımınız :<select name="takim" class="info"  required="required">
+                    <option value="Belirtmedi" >Belirtmedi</option>
+                    <option value="Fenerbahçe" >Fenerbahçe</option>
+                    <option value="Galatasaray" >Galatasaray</option>
+                    <option value="Beşiktaş" >Beşiktaş</option>
+                    <option value="Başakşehir" >Başakşehir</option>
+                    <option value="Sakaryaspor" >Sakaryaspor</option>
+                    </select>
+                
+                    <br>Cinsiyetiniz =><input type="radio" value="kadin" name="cinsiyet">Kadın &emsp;
+                <input type="radio" value="erkek" name="cinsiyet">Erkek<br>
+                    
+                Sözleşmeyi Onaylayın :<a href="">&emsp;Sözleşme&emsp;</a><input class="checkbox" type="checkbox" name="checkbox"><br>
+                <input type="reset" value="Temizle">&emsp;&emsp;<input type="submit" value="Gönder"></form>
+                    
+            </div>
+        </div>
+    </body>
+</html>
